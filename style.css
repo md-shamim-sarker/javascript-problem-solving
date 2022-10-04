@@ -1,0 +1,55 @@
+body {
+    background-color: aliceblue;
+}
+
+header {
+    height: 30vh;
+    background-color: #222020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+}
+
+main {
+    width: 70vw;
+    margin: 2rem auto;
+}
+
+.question-card {
+    border: 1px solid gray;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+
+h3 {
+    text-align: center;
+}
+
+footer {
+    height: 15vh;
+    background-color: #222020;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.in-out {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+    main {
+        width: 95vw;
+        margin: 2rem auto;
+    }
+}
